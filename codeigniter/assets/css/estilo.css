@@ -1,0 +1,94 @@
+@media (min-width: 400px) {
+    .fundo {
+        background-image: url(fundo-mobile.jpg);
+    }
+}
+
+@media (min-width: 800px) {
+    .fundo {
+        background-image: url(fundo.jpg);
+    }
+}
+
+.fundo-2 {
+        background-image: url(fundo2.jpg);
+}
+
+
+.fundo-cards {
+    background-color: rgba(112,112,112,0.6);
+}
+
+
+body {
+    background-color: rgba(112,112,112,.8);
+}
+
+#item-menu-home {
+    color: #A9A9A9;
+} 
+
+#item-menu-home:hover {
+    color: #C0C0C0;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.jumbotron {
+    background-color: rgba(112,112,112,.8);
+    margin-bottom: 0px;
+}
+
+#botao-1{
+    color: #007bff;
+    background-color: #fff;
+    border-color: #007bff;
+}
+
+#botao-1:hover {
+    background-color: black; 
+    border-color: black;
+}
+
+#botao-2{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#botao-2:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.display-4 {
+    color: black;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.lead {
+    color: black;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.5);
+    height: 70px;
+}
+
+footer p {
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-item {
+    color: #A9A9A9;
+}

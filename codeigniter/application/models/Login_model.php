@@ -13,10 +13,11 @@
 			$senha = $this->senha;
 
 			$this->db->where('usuario', $usuario);
-			$this->db->where('senha', $senha);
 			$query = $this->db->get('login');//realiza uma consulta no db da row que possui as informações dadas
+			$row = $query->row();
+			$hash = $row->senha;
 
-			return $query->num_rows();//função que retorna o numero de rows de uma consulta
+			return password_verify($senha, $hash);//função que retorna o numero de rows de uma consulta
 		}
 
 		public function inserir(){ //Insere os dados diretamente no banco de dados

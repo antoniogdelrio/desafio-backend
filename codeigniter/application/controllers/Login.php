@@ -18,6 +18,7 @@ class Login extends CI_Controller
                 $this->load->model('Login_model');
                 $this->Login_model->usuario = $_POST["usuario"]; //Carrega os atributos do objeto Login_model com o que foi digitado na pagina login.php
                 $this->Login_model->senha = $_POST["senha"];
+                $this->Login_model->logar();
                 if($this->Login_model->logar()){//Como a função logar() retorna o numero de rows do db que correspondem ao usuario e senha digitados, uma vez que o if é verdadeiro ele realiza os processos abaixo
                         $this->session->set_userdata('usuario', $_POST["usuario"]);//A variável userdata dentro de uma seção pode ser usada por todo o sistema dentro de um determinado tempo. Nesse caso, ela é útil para que todo o sistema saiba que há um usuário logado. O primeiro parâmetro é nome dessa variável, e o segundo o seu valor
                         $this->load->model('User_model');

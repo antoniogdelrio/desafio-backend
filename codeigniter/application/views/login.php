@@ -6,7 +6,7 @@
 	<h5><?php if(!empty($msg_login)) {//flashdata que só é exibido em caso de tentativa de acesso à partes administrativas do sistema sem o login. A página é recarregada exigindo o login.
 				echo $msg_login;
 			  } ?></h5>
-
+	
 	<div class="container my-5">
 		<?php echo form_open('login/entrar');?>
 		  <fieldset>

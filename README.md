@@ -1,7 +1,7 @@
-# Painel Crud com CodeIgniter 
+# Painel Crud com CodeIgniter :computer: :fire:
 Desenvolvimento de painel CRUD para aplicação de conceitos de backend.
 
-## Preview :computer: :fire: ##
+## Preview ##
 ![](app-gif/php-crud-gif.gif)
 
 ## Setup ##

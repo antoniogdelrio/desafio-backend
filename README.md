@@ -1,4 +1,4 @@
-# Painel Crud com Codeigniter 
+# Painel Crud com CodeIgniter 
 Desenvolvimento de painel CRUD para aplicação de conceitos de backend.
 
 ## Preview :computer: :fire: ##
